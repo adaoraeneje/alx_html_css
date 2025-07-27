@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+              url('image/Bitmap.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 40px 60px;
+  position: relative;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-header .logo {
+  width: 160px;
+}
+
+.nav-header nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav-header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.hero-content {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.hero-content h1 {
+  font-size: 70px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-content .subtext {
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+.hero-content .subtext span {
+  margin: 0 10px;
+}
+
+.hero-content button {
+  padding: 15px 40px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #C271FF;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-bottom: 60px;
+}
+
+.profiles {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.profile h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.profile p {
+  font-size: 14px;
+  font-style: italic;
+  color: #d8d8d8;
+}
