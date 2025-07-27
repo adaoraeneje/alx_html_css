@@ -103,3 +103,24 @@ body {
   font-style: italic;
   color: #d8d8d8;
 }
+.Testimonials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  background-color: #910282;
+  min-height: 50vh;
+  padding: 40px 60px;
+  color: white;
+  transform: translateX(-1px); /* Moves everything a bit to the left */
+}
+
+
+.smile {
+    width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
